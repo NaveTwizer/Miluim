@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טופס זוג מילואים</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+    <form id="form" action="">
+        <div id="chooseDiv">
+            <p>אני בן/בת זוג של מילואימניק/ית</p>
+            <label>כן</label>
+            <input type="radio" id="yes" name="choose" value="yes" onclick="divOn()">
+            <label>לא</label>
+            <input type="radio" name="choose" id="no" onclick="divOff()">
+        </div>
+        <div id="hiddenDiv">
+            <input type="text" placeholder="הכנס תז של בן או בת זוגך" maxlength="9" min="9" pattern="\d{9}" required>
+        </div>
+        <button>שלח</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
