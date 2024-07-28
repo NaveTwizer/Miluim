@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף הבית</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <div id="div1">
+            <header>
+                <h1>פנייה לקרן הסיוע לעצמאים</h1>
+                <b id="b1">משרת/ת מילואים יקר/ה,</b>
+                <h3>בטרם הגשת פנייה אנא היערך והכן את המסמכים הנדרשים לצורך בחינת פנייתך, וזאת בהתאם לסוג הפנייה הרלוונטי.</h3>
+            </header>
+            <h2>באילו תקופות נפגעה הכנסתך?</h2>
+
+            <table class="table1">
+                <tr>
+                    <td class="td1" >
+                        <input type="checkbox" class="checkbox1" name="time" id="oct2023" value="oct2023">
+                        <label>אוקטובר 2023</label>
+                    </td>
+                    <td class="td1">
+                        <input type="checkbox" class="checkbox1" name="time" id="nov2023" value="nov2023">
+                        <label>נובמבר - דצמבר 2023</label>
+                    </td>
+                    <td class="td1">
+                        <input type="checkbox" class="checkbox1" name="time" id="2024" value="2024">
+                        <label>2024</label>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+        </div>
+        <div id="div2">
+            <b>לאיזה מסלול הינך משויך ברשות המיסים?</b>
+            <h4>*שימו לב, מרחק העסק כפי הרשום ברשות המיסים</h4>
+
+            <table id="table2">
+                <tr class="tr2">
+                    <td>
+                        <input type="radio" name="radios1" id="red" value="red" class="radios1">
+                        <label>אדום</label>
+                    </td>
+                    <td class="td2">
+                        <label>0-7 קילומטר מגבול עזה<br>0-9 קילומטר מגבול לבנון<br>יישוב שפונה</label>
+                    </td>
+                </tr>
+                <tr class="tr2">
+                    <td>
+                        <input type="radio" name="radios1" id="yellow" class="radios1" value="yellow">
+                        <label>מורחב</label>
+                    </td>
+                    <td class="td2">
+                        <label>7-40 קילומטר מגבול עזה</label>
+                    </td>
+                </tr>
+                <tr class="tr2">
+                    <td>
+                        <input type="radio" name="radios1" class="radios1" value="green" id="green">
+                        <label>רגיל</label>
+                    </td>
+                    <td class="td2">
+                        <label>שאר הארץ</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div id="div3">
+            <b class="em-1-5">עבור מי מגישים את הבקשה?</b>
+            <table id="table3">
+                <tr>
+                    <td class="td3">
+                        <label class="em-1-5">העסק של משרת המילואים</label>
+                        <input checked="checked" class="radios2" type="radio" name="radios2" id="" value="העסק של משרת המילואים">
+                    </td>
+                    <td class="td3">
+                        <label class="em-1-5">העסק של בן/בת הזוג</label>
+                        <input checked="checked" class="radios2" type="radio" name="radios2" id="" value="העסק של בן/בת הזוג">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
